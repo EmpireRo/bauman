@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88711710-00d9-46e3-acee-d3d81a51be6d" name="Default Changelist" comment="" />
+    <list default="true" id="88711710-00d9-46e3-acee-d3d81a51be6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest/test1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +28,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hibernate.cfg.xml" type="cc8827a6:DatabaseStructure$DbGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -78,7 +88,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30441177" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -99,19 +109,18 @@
       <recent name="D:\java\hello1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat8.1">
-    <configuration name="UserDaoImpTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.test1">
+    <configuration name="test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daoImpl.*" />
+          <option name="PATTERN" value="UserTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="daoImp" />
-      <option name="MAIN_CLASS_NAME" value="daoImp.UserDaoImpTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="UserTest" />
+      <option name="MAIN_CLASS_NAME" value="UserTest.test1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1.testDeleteInDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test1.testDeleteNullI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello1" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UserTest" />
       <option name="MAIN_CLASS_NAME" value="UserTest.test1" />
-      <option name="METHOD_NAME" value="testDeleteInDao" />
+      <option name="METHOD_NAME" value="testDeleteNullI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1.ttt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test1.testUpdateNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello1" />
       <extension name="coverage">
         <pattern>
@@ -174,7 +183,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UserTest" />
       <option name="MAIN_CLASS_NAME" value="UserTest.test1" />
-      <option name="METHOD_NAME" value="ttt" />
+      <option name="METHOD_NAME" value="testUpdateNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,20 +262,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserDaoImpTest.add" />
       <item itemvalue="JUnit.test1.testSelectNull" />
-      <item itemvalue="JUnit.test1.testAddNull" />
-      <item itemvalue="JUnit.test1.testDeleteInDao" />
-      <item itemvalue="JUnit.test1.ttt" />
       <item itemvalue="Tomcat Server.tomcat8.1" />
+      <item itemvalue="JUnit.test1" />
+      <item itemvalue="JUnit.test1.testDeleteNullI" />
+      <item itemvalue="JUnit.test1.testUpdateNull" />
+      <item itemvalue="JUnit.test1.testAddNull" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test1.ttt" />
-        <item itemvalue="JUnit.test1.testDeleteInDao" />
+        <item itemvalue="JUnit.test1" />
         <item itemvalue="JUnit.test1.testAddNull" />
+        <item itemvalue="JUnit.test1.testUpdateNull" />
+        <item itemvalue="JUnit.test1.testDeleteNullI" />
         <item itemvalue="JUnit.test1.testSelectNull" />
-        <item itemvalue="JUnit.UserDaoImpTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -282,8 +291,24 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="hibernate.cfg.xml" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="hibernate.cfg.xml" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:labbase" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="hibernate.cfg.xml" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:labbase" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4e3192f2" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="hibernate.cfg.xml" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:labbase" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2a97fcef" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -319,6 +344,7 @@
       <workItem from="1574864039064" duration="697000" />
       <workItem from="1575753437690" duration="755000" />
       <workItem from="1575754270419" duration="388000" />
+      <workItem from="1575755533743" duration="612000" />
     </task>
     <servers />
   </component>
@@ -343,35 +369,40 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="319" y="106" key="#Tomcat_Server/0.23.1440.835@0.23.1440.835" timestamp="1575753525907" />
-    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575754297331">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575755761375">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1575755761375" />
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1575754297331" />
     <state x="468" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575753664807">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="468" y="284" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1440.835@0.23.1440.835" timestamp="1575753664807" />
-    <state width="930" height="203" key="GridCell.Tab.0.bottom" timestamp="1575754864665">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1575756145711">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1575756145711" />
     <state width="930" height="203" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1575754864665" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1575754443440" />
     <state width="930" height="203" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1575754358854" />
-    <state width="930" height="203" key="GridCell.Tab.0.center" timestamp="1575754864664">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1575756145709">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1575756145709" />
     <state width="930" height="203" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1575754864664" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1575754443437" />
     <state width="930" height="203" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1575754358853" />
-    <state width="930" height="203" key="GridCell.Tab.0.left" timestamp="1575754864664">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1575756145709">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1575756145709" />
     <state width="930" height="203" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1575754864664" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1575754443436" />
     <state width="930" height="203" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1575754358852" />
-    <state width="930" height="203" key="GridCell.Tab.0.right" timestamp="1575754864665">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1575756145710">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1575756145710" />
     <state width="930" height="203" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1575754864665" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1575754443438" />
     <state width="930" height="203" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1575754358854" />
@@ -423,10 +454,15 @@
     <state width="930" height="203" key="GridCell.Tab.2.right/0.23.1440.831@0.23.1440.831" timestamp="1575754864667" />
     <state width="930" height="203" key="GridCell.Tab.2.right/0.23.1440.834@0.23.1440.834" timestamp="1575754104710" />
     <state width="930" height="203" key="GridCell.Tab.2.right/0.23.1440.835@0.23.1440.835" timestamp="1575754358858" />
-    <state x="208" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1575753593806">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="208" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1575755973835">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1575755973835" />
     <state x="208" y="23" width="1024" height="835" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1575753593806" />
+    <state x="399" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1575755533789">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="399" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1575755533789" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

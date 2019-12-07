@@ -27,16 +27,7 @@ public class test1 {
         u_proList.add(new u_pro("wang","stu"));
         u_proList.add(new u_pro("wang1","stu1"));
     }
-    //测试service中select方法参数为空时候是否执行dao.selectAll()
-    @Test
-    public void testSelectNull() throws Exception {
-        UserService userService = new UserServiceImpl();
-        // 创建mock
-        UserDao userDao = mock(UserDaoImpl.class);
-        when(userDao.selectAll()).thenReturn(u_proList);
-        List<u_pro> proList = userService.select(null);
-        Assert.assertSame(u_proList,proList);
-    }
+    
     //测试service的add方法添加null参数时候
     @Test(expected = RuntimeException.class)
     public void testAddNull() {
