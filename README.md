@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/TIGER-FF/hello2.svg?branch=master)](https://travis-ci.org/TIGER-FF/hello2)
+[![Build Status](https://www.travis-ci.org/EmpireRo/bauman.svg?branch=master)](https://www.travis-ci.org/EmpireRo/bauman)
