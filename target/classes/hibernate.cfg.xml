@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">kvyhgutgzabxce</property>
+        <property name="hibernate.connection.password">761852a32f077ef6ed73aa144fb8c664dc9a04124d700525f9e1d3deadab9a63</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-174-129-255-4.compute-1.amazonaws.com:5432/d5pg9k7sn8h10d</property>
+        
+ 		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+ 		
+ 		
+ 		
+ 		
+ 		
+        <!-- show_sql: 操作数据库时,会 向控制台打印sql语句 -->
+        <property name="show_sql">true</property>
+        <!-- format_sql: 打印sql语句前,会将sql语句先格式化  -->
+        <property name="format_sql">true</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<!--将线程配置成Thread级别的  -->
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+		<!--绑定orm配置  -->
+        <mapping resource="domain/u_pro.hbm.xml"/>
+		
+    </session-factory>
+</hibernate-configuration>

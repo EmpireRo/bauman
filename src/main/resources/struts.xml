@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.devMode" value="false" />
+	<!--将struts整合到spring中
+	配置常量，指定由spring完成属性注入
+	-->
+<!--	<constant name="struts.objectFactory" value="spring"/>-->
+	<package name="database" namespace="/" extends="struts-default">
+		<!--配置全局的结果处理  -->
+		<global-results>
+			<result name="error" >/error.jsp</result>
+		</global-results>
+		
+		
+		 <global-exception-mappings >
+			 <exception-mapping result="error" exception="java.lang.RuntimeException"/>
+		</global-exception-mappings> 
+		
+		<!--在action中的class属性填写在applicationContext中的名字-->
+		<action name="op_*" class="action.OpeAction" method="{1}">
+			<!--add-->
+			<result name="add">/hello.jsp</result>
+			<!--delete -->
+			<result name="delete">/hello.jsp</result>
+			<!--update-->
+			<result name="update">/hello.jsp</result>
+			<!-- select-->
+			<result name="select">/show.jsp</result>
+			<allowed-methods>add,delete,update,select</allowed-methods>
+		</action>
+
+	</package>
+
+</struts>
